@@ -10,7 +10,7 @@ const App = () => {
   useEffect(() => {
     const fetchQuotes = async () => {
       const res = await fetch(
-        "https://craig-dsilva-quote-server.glitch.me/api/quotes"
+        "https://craig-dsilva-quote-server.glitch.me/api/quotes/with-id"
       );
       const data = await res.json();
       setQuotes(data);
