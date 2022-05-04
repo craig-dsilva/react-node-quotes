@@ -3,17 +3,17 @@ import { Routes, Route } from "react-router-dom";
 
 import Navigation from "./Components/Navigation";
 import Home from "./pages/Home";
-import RandomQuotes from "./pages/RandomQuotes";
+import RandomQuote from "./pages/RandomQuote";
 
 import "./App.css";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/random" element={<RandomQuotes />} />
+        <Route path="/random" element={<RandomQuote />} />
       </Routes>
     </div>
   );

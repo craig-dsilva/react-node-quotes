@@ -12,12 +12,31 @@ code {
     monospace;
 }
 
-.App {
-  text-align: center;
-  margin-top: 3em;
+.app {
+  margin: 3em 2em;
 }
 
-.Navigation {
+.navigation {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 5em;
+}
+
+.quotes-header {
+  margin-bottom: 2em;
+}
+
+.quote {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto 5px;
+}
+
+.quote-text {
+  grid-column: 1 / 3;
+}
+
+.quote-author {
+  grid-column: 2;
+  grid-row: 3;
 }

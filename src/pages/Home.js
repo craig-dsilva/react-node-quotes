@@ -19,7 +19,7 @@ const Home = () => {
 
   return (
     <div className="Home">
-      <h1>Quotes</h1>
+      <h1 className="quotes-header">Quotes</h1>
       <Quotes quotes={quotes} />
     </div>
   );

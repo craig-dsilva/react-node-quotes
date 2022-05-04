@@ -4,14 +4,12 @@ import Button from "@mui/material/Button";
 
 const Navigation = () => {
   return (
-    <div className="Navigation">
-      {/* <Link to="/">All Quotes</Link>
-      <Link to="/random">Random Quotes</Link> */}
-      <Button variant="contained" color="success" component={Link} to="/">
+    <div className="navigation">
+      <Button variant="contained" color="primary" component={Link} to="/">
         All Quotes
       </Button>
       <Button variant="contained" color="success" component={Link} to="/random">
-        Random Quotes
+        Random Quote
       </Button>
     </div>
   );

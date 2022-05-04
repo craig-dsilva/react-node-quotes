@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Quote from "../Components/Quote";
 
-const RandomQuotes = () => {
+const RandomQuote = () => {
   const [quote, setQuote] = useState({});
 
   useEffect(() => {
@@ -21,4 +21,4 @@ const RandomQuotes = () => {
   return <Quote key={quote.id} quote={quote.quote} author={quote.author} />;
 };
 
-export default RandomQuotes;
+export default RandomQuote;
