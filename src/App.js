@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
-import RandomQuotes from "./pages/RandomQuotes/RandomQuotes";
+import RandomQuotes from "./pages/RandomQuotes";
 
 import "./App.css";
 
