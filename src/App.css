@@ -14,4 +14,10 @@ code {
 
 .App {
   text-align: center;
+  margin-top: 3em;
+}
+
+.Navigation {
+  display: flex;
+  justify-content: space-around;
 }
